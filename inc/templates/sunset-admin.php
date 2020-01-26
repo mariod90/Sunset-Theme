@@ -23,7 +23,7 @@
         <?php
         settings_fields('sunset-setting-group');
         do_settings_sections('sunset_theme');
-        submit_button();
+        submit_button('Save Changes', 'primary', 'btnSubmit');
         ?>
     </form>
 </div>
